@@ -1,0 +1,22 @@
+<script type="text/javascript">
+  $(function(){
+
+    $('a[href^="#"]').click(function(e) {
+      var target = $('#rich_text');
+           if (target.length > 0) {
+        SST.scrollTo(target.offset());
+        e.preventDefault();
+           }
+    });
+
+  });
+</script>
+
+<style type="text/css">
+  
+#image4 {
+  background-color: #d0ecf4;
+}
+
+  
+</style>  
