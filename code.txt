@@ -1,0 +1,129 @@
+<style type="text/css">
+
+.field_block label .required, .horizontal_container label .required, .facebook_id_field_block .required {
+color: #FFF;
+font-weight: bold;
+padding-left: 3px;
+}
+
+#promotion2 {
+	background-color: #c41e2b;
+	color: #FFF;
+	font: 14px Helvetica,Arial,sans-serif;
+}
+
+label {
+	cursor: pointer;
+	color: #FFF;
+	font-weight: bold;
+}  
+
+
+
+#image4 {
+background-color: #c41e2b;
+}  
+
+.ss_btn {
+display: block;
+background-image: url(http://ca.palmers.com/FBContests/STOFaceFeb2014/images/btn_submit_yellow.png);
+width: 185px;
+height: 44px;
+background-repeat: no-repeat;
+background-color: #c41e2b;
+margin: auto;
+border: solid 0px #999;
+}
+
+a {
+cursor: pointer;
+color: #cc9c4a;
+-moz-outline-style: none;
+text-decoration: none;
+}  
+
+.boxy-wrapper {
+background-color: #c41e2b;
+border-radius: 5px;
+padding: 0;
+box-shadow: 2px 2px 2px #666;
+}
+
+.boxy-wrapper .title-bar {
+background-color: #c41e2b;
+}  
+
+.boxy-wrapper .title-bar .close {
+	color: #FFF;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	font-size: 90%;
+	line-height: 1;
+}  
+
+label.error {
+	background: url('http://ca.palmers.com/images/body/FB/up_dash_white.png') no-repeat 0 -2px;
+	color: #FFF;
+	padding-left: 16px;
+	margin-top: 2px;
+}  
+
+</style>
+
+
+
+<script type="text/javascript">
+  $(function(){
+
+    $('a[href^="#"]').click(function(e) {
+      var target = $('#rich_text');
+           if (target.length > 0) {
+        SST.scrollTo(target.offset());
+        e.preventDefault();
+           }
+    });
+
+  });
+</script>
+
+<script>
+  $(function() {
+    var cache_buster = parseInt(Math.random()*99999999);
+    $('#promotion2').on('success.form', function() {
+      $('#wrapper').append("<img src='https://20585019p.rfihub.com/ca.gif?rb=11435&ca=20585019&ra=" + cache_buster + "' height=0 width=0 style='display:none' alt='Rocket Fuel'/>");
+    });
+  });
+</script>
+
+<script type="text/javascript">
+
+  //Begin Rocket Fuel Universal Pixel
+
+  (function () {
+   var cachebust = (Math.random() + "").substr(2);
+    var protocol = "https:" == document.location.protocol ? 'https:' : 'http:';
+     new Image().src = protocol+"//20581537p.rfihub.com/ca.gif?rb=11435&ca=20581537&ra="+cachebust;
+  })();
+
+// End Rocket Fuel Universal Pixel
+
+
+
+</script>
+
+
+
+<script>
+  $(function() {
+    $('#promotion2').on('success.form', function() {
+       $('#wrapper').append("<img src='https://secure.adnxs.com/px?id=232619&t=2" + "'  width=1 height=1 '/>");
+    });
+  });
+</script>
+
+
+
+<!-- Segment Pixel - Palmer's - DO NOT MODIFY -->
+<img src="https://secure.adnxs.com/seg?add=1916254&t=2" width="1" height="1" />
+<!-- End of Segment Pixel -->
